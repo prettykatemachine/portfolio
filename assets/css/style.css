@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 .jumbotron-fluid {
     margin-bottom: 0%;
    background-image: url("../images/IMG_20180509_135326.jpg");
@@ -23,9 +30,10 @@ a:hover {
     #about, #portfolio, #contact {
         background-color: #02b9cb;
         display:  inline-block;
-        border: solid 1px;
+        border: solid 3px;
         padding: 5%;
         margin: 3%;
+        box-align: center;
     }
 
     .btn {
@@ -53,4 +61,14 @@ a:hover {
       
 body {
     background-image: url("../images/white_paperboard.png")
+}
+
+.galleryImg {
+    margin: 3%;
+    padding: 11%;
+    border: #b6b6b6 3px;
+}
+
+.galleryImg > a {
+    color: #000000;
 }

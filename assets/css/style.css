@@ -1,13 +1,18 @@
 .jumbotron-fluid {
     margin-bottom: 0%;
-    background-image: url("IMG_20180509_135326.jpg");
+   background-image: url("../images/IMG_20180509_135326.jpg");
     background-repeat: no-repeat;
     background-position: right;
     background-color: #b6b6b6;
 }
 
+img {
+    box-align: right;
+}
+
 .navbar {
     letter-spacing: 3px;
+    border: solid 1px;
 }
 
 a:hover {
@@ -15,10 +20,11 @@ a:hover {
         border-bottom: 3px solid #02b9cb;
     }
 
-    .content {
+    #about {
         background-color: #02b9cb;
         display: center inline-block;
         border: solid 1px;
+        padding: 8%;
     
         /*background-image: url("white_paperboard.png")*/
     }
@@ -28,3 +34,19 @@ a:hover {
         background-color: #f01e78;
         border-radius: 0%;
     }
+
+    #go-to-top {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: groove #000000;
+        outline: none;
+        background-color: #f01e78;
+        color: #000000;
+        padding: 11px;
+        border-radius: 4px;
+        margin-bottom: 8%;
+      }

@@ -1,4 +1,6 @@
-// Jump to Top Button 
+$(document).ready(function () {
+
+    // Jump to Top Button 
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () {
         scrollFunction()
@@ -6,8 +8,19 @@
 
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("go-to-top").style.display = "block";
+            document.getElementById("jumpTop").style.display = "block";
         } else {
-            document.getElementById("go-to-top").style.display = "none";
+            document.getElementById("jumpTop").style.display = "none";
         }
     }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        } 
+    
+        // on click jump to the top button event
+        $("#jumpTop").on("click", topFunction);
+    
+});

@@ -20,13 +20,12 @@ a:hover {
         border-bottom: 3px solid #02b9cb;
     }
 
-    #about {
+    #about, #portfolio, #contact {
         background-color: #02b9cb;
         display: center inline-block;
         border: solid 1px;
-        padding: 8%;
-    
-        /*background-image: url("white_paperboard.png")*/
+        padding: 5%;
+        margin: 3%;
     }
 
     .btn {
@@ -35,7 +34,7 @@ a:hover {
         border-radius: 0%;
     }
 
-    #go-to-top {
+    #jumpTop {
         display: none;
         position: fixed;
         bottom: 20px;
@@ -46,7 +45,12 @@ a:hover {
         outline: none;
         background-color: #f01e78;
         color: #000000;
-        padding: 11px;
+        cursor: pointer;
+        padding: 15px;
         border-radius: 4px;
-        margin-bottom: 8%;
+        margin-bottom: 11%;
       }
+      
+body {
+    background-image: url("../images/white_paperboard.png")
+}

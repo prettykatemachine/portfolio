@@ -1,0 +1,30 @@
+.jumbotron-fluid {
+    margin-bottom: 0%;
+    background-image: url("IMG_20180509_135326.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #b6b6b6;
+}
+
+.navbar {
+    letter-spacing: 3px;
+}
+
+a:hover {
+        color: #f01e78!important;
+        border-bottom: 3px solid #02b9cb;
+    }
+
+    .content {
+        background-color: #02b9cb;
+        display: center inline-block;
+        border: solid 1px;
+    
+        /*background-image: url("white_paperboard.png")*/
+    }
+
+    .btn {
+        margin: 4px;
+        background-color: #f01e78;
+        border-radius: 0%;
+    }

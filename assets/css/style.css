@@ -4,25 +4,7 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  /* width less than 980px  */
-@media screen and (max-width: 980px) {
-    #about, portfolio, contact {
-        width: 150px;
-    }
-  
-  
-  /* width less than 768px  */
-  @media screen and (max-width: 768px) {
-    #about, portfolio, contact {
-        width: 300px;
-    }
-  
-  
-  /* width less than 640px  */
-  @media screen and (max-width: 640px) {
-    #about, portfolio, contact {
-        width: 300px;
-    }
+ 
 
 .jumbotron-fluid {
     margin-bottom: 0%;

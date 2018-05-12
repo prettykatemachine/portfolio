@@ -7,10 +7,18 @@ html {
 
 .jumbotron-fluid {
     margin-bottom: 0%;
-   background-image: url("../images/IMG_20180509_135326.jpg");
+   background-image: url("../images/kate.png");
     background-repeat: no-repeat;
     background-position: right;
     background-color: #b6b6b6;
+}
+
+h1 {
+    font-family: 'Economica', sans-serif;
+}
+
+p {
+    font-family: 'Oswald' sans-serif;
 }
 
 img {
@@ -31,9 +39,9 @@ a:hover {
         background-color: #02b9cb;
         display:  inline-block;
         border: solid 3px;
-        padding: 5%;
+        padding: 3%;
         margin: 3%;
-        box-align: center;
+        
     }
 
     .btn {
@@ -71,4 +79,14 @@ body {
 
 .galleryImg > a {
     color: #000000;
+}
+
+.form-control {
+border: solid;
+}
+
+#submit {
+    color: #000000;
+    margin: 8%;
+    border: groove #000000 2px;
 }
